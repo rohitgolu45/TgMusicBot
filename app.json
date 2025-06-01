@@ -15,17 +15,17 @@
     "env": {
         "API_ID": {
             "description": "Your Telegram API ID, get it from https://my.telegram.org",
-            "value": "",
+            "value": "20908081",
             "required": true
         },
         "API_HASH": {
             "description": "Your Telegram API Hash, get it from https://my.telegram.org",
-            "value": "",
+            "value": "5972f5fa0de92a847f78f6329518db47",
             "required": true
         },
         "TOKEN": {
             "description": "Your Telegram Bot Token, get it from https://t.me/BotFather",
-            "value": "",
+            "value": "8109694815:AAFFf7YCotAuwuUdWQUkBvLiR8LdkQ832zE",
             "required": true
         },
         "STRING1": {
@@ -80,12 +80,12 @@
         },
         "OWNER_ID": {
             "description": "Your Telegram User ID, get it from https://t.me/GuardxRobot",
-            "value": "5938660179",
+            "value": "5843255740",
             "required": true
         },
         "MONGO_URI": {
             "description": "Your MongoDB URI, get it from https://cloud.mongodb.com",
-            "value": "",
+            "value": "mongodb+srv://rohitgolu436:rohitgolu436@cluster0.4hnolvz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": true
         },
         "DOWNLOADS_DIR": {
@@ -120,12 +120,12 @@
         },
         "SUPPORT_GROUP": {
             "description": "Telegram Group Link",
-            "value": "https://t.me/GuardxSupport",
+            "value": "https://t.me/+80p30HSfA7g4ZTA9",
             "required": false
         },
         "SUPPORT_CHANNEL": {
             "description": "Telegram Channel Link",
-            "value": "https://t.me/FallenProjects",
+            "value": "https://t.me/+80p30HSfA7g4ZTA9",
             "required": false
         },
         "AUTO_LEAVE": {
@@ -135,12 +135,12 @@
         },
         "LOGGER_ID": {
             "description": "Logger Group ID",
-            "value": "",
+            "value": "-1002598257185",
             "required": false
         },
         "DEVS": {
             "description": "User ID's of developers",
-            "value": "5938660179",
+            "value": "5843255740",
             "required": false
         }
     },
