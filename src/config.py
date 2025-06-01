@@ -37,9 +37,9 @@ def get_env_int(name: str, default: Optional[int] = None) -> Optional[int]:
         return default
 
 
-API_ID: Optional[int] = get_env_int("API_ID")
-API_HASH: Optional[str] = getenv("API_HASH")
-TOKEN: Optional[str] = getenv("TOKEN")
+API_ID: Optional[int] = get_env_int("20908081")
+API_HASH: Optional[str] = getenv("5972f5fa0de92a847f78f6329518db47")
+TOKEN: Optional[str] = getenv("8109694815:AAFFf7YCotAuwuUdWQUkBvLiR8LdkQ832zE")
 MIN_MEMBER_COUNT: int = get_env_int("MIN_MEMBER_COUNT", 50)
 
 SESSION_STRINGS: list[str] = [getenv(f"STRING{i}", None) for i in range(1, 11)]
@@ -47,9 +47,9 @@ SESSION_STRINGS = [s for s in SESSION_STRINGS if s]
 
 OWNER_ID: int = get_env_int("OWNER_ID", 5843255740)
 LOGGER_ID: int = get_env_int("LOGGER_ID", 0)
-MONGO_URI: Optional[str] = getenv("MONGO_URI")
-API_URL: Optional[str] = getenv("API_URL")
-API_KEY: Optional[str] = getenv("API_KEY")
+MONGO_URI: Optional[str] = getenv("mongodb+srv://rohitgolu436:rohitgolu436@cluster0.4hnolvz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+API_URL: Optional[str] = getenv("https://sp.ashok.sbs")
+API_KEY: Optional[str] = getenv("eafad9_9WtXLjf4GAW66HlDTs3Jp_U3kT7BhcWV")
 PROXY: Optional[str] = getenv("PROXY")
 
 DEFAULT_SERVICE: str = getenv("DEFAULT_SERVICE", "youtube").lower()
