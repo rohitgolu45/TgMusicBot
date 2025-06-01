@@ -95,12 +95,12 @@
         },
         "API_URL": {
             "description": "API URL for the bot",
-            "value": "",
+            "value": "https://sp.ashok.sbs",
             "required": false
         },
         "API_KEY": {
             "description": "API key for the bot, get it from https://t.me/FallenApiBot",
-            "value": "",
+            "value": "eafad9_9WtXLjf4GAW66HlDTs3Jp_U3kT7BhcWV",
             "required": false
         },
         "PROXY": {
